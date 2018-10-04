@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	
+
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
-	
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
-	<!-- TODO Add Nodes -->
+
+
+<BorderPane prefWidth="149.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.181" fx:controller="application.SampleController">
+   <top>
+      <TextField alignment="CENTER" BorderPane.alignment="CENTER" />
+   </top>
+   <center>
+      <TextField BorderPane.alignment="CENTER" />
+   </center>
 </BorderPane>
